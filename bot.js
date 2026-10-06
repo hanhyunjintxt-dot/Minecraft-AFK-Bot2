@@ -2,7 +2,7 @@ const mineflayer = require('mineflayer');
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'paradise-wtlz.aternos.me:46005', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
+        host: 'paradise-wtlz.aternos.me', // <--- REEMPLAZA ESTO POR LA IP DE TU SERVER
         port: 46005,                // Puerto predeterminado de Minecraft
         username: 'Botinga',    // Nombre genérico del bot/NPC dentro del juego
         version: false              // Autodetecta la versión exacta del servidor (1.8 a 1.21+)
